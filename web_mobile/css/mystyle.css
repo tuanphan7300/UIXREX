@@ -1,0 +1,127 @@
+@font-face {
+    font-family:Poppins-Regular;
+    src:url('./fonts/Poppins/Poppins-Regular.ttf') format('truetype'),
+    url('./fonts/Poppins/Poppins-Regular.eot#iefix') format('embedded-opentype'),
+    url('./fonts/Poppins/Poppins-Regular.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+   }
+   @font-face {
+        font-family:Poppins-SemiBold;
+        src:url('./fonts/Poppins/Poppins-SemiBold.ttf') format('truetype'),
+        url('./fonts/Poppins/Poppins-Regular.eot#iefix') format('embedded-opentype'),
+        url('./fonts/Poppins/Poppins-Regular.woff') format('woff');
+        font-weight:normal;
+        font-style:normal;
+   }
+   :root{
+        --font-main: Poppins-Regular;
+    }
+   *{display: block;}
+   body{font-family: var(--font-main);}
+   img{width: 80%;object-fit: cover;border-radius: 76px;}
+   .wrapper{
+       width: 1170px;
+       margin:0 auto
+   }
+.header{
+    padding-top: 62px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#slideMain{
+    padding-top: 120px;
+    background-image: url(../images/Subtraction3.png);
+    background-repeat: no-repeat;
+}
+.menu-1{
+    display: inline-flex;
+    justify-content: center;
+}
+.mg-right-logo{
+    margin-right: 83.3px;
+}
+.mg-left-logo{
+    margin-right: 83.3px;
+}
+.none-li{
+    margin-right: 41.91px;
+    list-style-type: none;
+    margin-top: 12px;
+}
+.mg-top-menu{
+    margin-top: 62px;
+}
+div.parent {
+	text-align: center;
+	}
+ul { 
+	display: inline-block; 
+	text-align: left; 
+}
+.logo-size{
+    font-size: 34px; 
+}
+.app-size{
+    font-size: 46px;
+}
+.container {
+    width: 1921;
+    padding: 10px;
+ }
+ #post {
+    width: 559px;
+    height: 925px;
+    text-align: center;
+ }
+ #sidebar {
+    width: 595.31px;
+    height: 925px;
+    text-align: left;
+   }
+.app{
+    display: inline-flex;
+}
+.wh-80{
+    width: 80%;
+}
+.mg-top{
+    margin-top: 30%;
+}
+.bg-img{
+    background-image: url(../images/Subtraction3.png);
+    background-repeat: no-repeat;
+    background-size: 230px 81px;
+}
+.in-fl{
+    display: inline-flex;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.column {
+    float: left;
+    width: 33%;
+    padding: 15px;
+  }
+  #about{
+      padding-top: 30px;
+  }
+.ti-about{
+    text-align: center;
+}
+.tit{
+    font-size: 36px;
+}
+.pad-tit-about{
+    padding-top: 30px;
+}
+.img-sup{
+    width: 10%;
+}
+

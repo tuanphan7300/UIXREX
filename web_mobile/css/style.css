@@ -76,6 +76,38 @@ html{
     display: flex;
     padding-right: 0px;
 }
+.navbar-icon{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-list a:not(:first-child) {display: none;}
+    .navbar-icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  .navbar-list.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  @media screen and (max-width: 600px) {
+    .navbar-list.responsive {position: relative;}
+    .navbar-list.responsive .navbar-icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar-list .responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
 .header .header__top-header .navbar-list__item{
     font-family: var(--font-regula);
     font-size: 20px;
@@ -105,7 +137,15 @@ html{
 .header .header__bot-header{
     display: flex;
 }
+
+@media screen and (max-width: 600px) {
+    .header .header__bot-header{
+        flex-direction: column;
+    }
+  }
+
 .header .header__bot-header .header__iphone{
+    max-width: 559px;
     margin-top: 100px;
 }
 
